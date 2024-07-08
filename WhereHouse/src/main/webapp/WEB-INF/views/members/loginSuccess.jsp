@@ -414,7 +414,7 @@
                 <h2 id="score_link_text">점수 산정 방식이 궁금하다면?</h2>
             </div>
             <div class="col-md-2">
-                <a href="description.html" class="btn btn-outline-dark rounded-pill">
+                <a href="./page/reinfo" class="btn btn-outline-dark rounded-pill">
                     <h3 id="score_link_btn">click!</h3>
                 </a>
             </div>
@@ -447,7 +447,7 @@
                             저희 WhereHouse가 <br>
                             딱맞는 거주지 총 3곳을 추천해드릴게요.
                         </p>
-                        <a href="main.jsp" class="mt-3 pt-2 btn btn-light card_btn border rounded-pill"
+                        <a href="./page/main" class="mt-3 pt-2 btn btn-light card_btn border rounded-pill"
                             id="do_suggest_btn">
                             <h4>추천 받으러 가기!</h4>
                         </a>
@@ -465,7 +465,7 @@
                             핫플레이스도 알려드릴게요! <br>
                             <br>
                         </p>
-                        <a href="main.jsp" class="mt-3 pt-2 btn btn-light card_btn border rounded-pill"
+                        <a href="./page/main" class="mt-3 pt-2 btn btn-light card_btn border rounded-pill"
                             id="do_map_btn">
                             <h4>지역구 정보 보러가기!</h4>
                         </a>
@@ -483,7 +483,7 @@
                             반경 내 상세 정보들을 보여드릴게요. <br>
                             <br>
                         </p>
-                        <a href="main.jsp" class="mt-3 pt-2 btn btn-light card_btn border rounded-pill" id="do_detail_btn">
+                        <a href="./page/main" class="mt-3 pt-2 btn btn-light card_btn border rounded-pill" id="do_detail_btn">
                             <h4>상세 정보 보러가기!</h4>
                         </a>
                     </div>
@@ -513,32 +513,32 @@
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted">
                                     <i class="bi bi-geo-alt-fill">
-                                        서울시 서대문구 연희로
+                                        서울특별시 영등포구
                                     </i>
                                 </a>
                             </div>
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted">
                                     <i class="bi bi-telephone-fill">
-                                        010-2794-0796
+                                         010-3370-7750
                                     </i>
                                 </a>
                             </div>
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted">
                                     <i class="bi bi-envelope-fill">
-                                        joonwon24@gmail.com
+                                        bumjin.dev@gmail.com
                                     </i>
                                 </a>
                             </div>
                             <div class="nav-item mb-2">
-                                <a class="nav-link p-0 text-muted" href="https://github.com/joonwonh/WhereHouse"
-                                    target="_blank">
+                                 <a class="nav-link p-0 text-muted"
+                                   	href="https://github.com/bumjinDev/wherehouse" target="_blank">
                                     <i class="bi bi-github">
-                                        github.com/joonwonh/WhereHouse
+                                        github.com/bumjinDev/wherehouse
                                     </i>
                                 </a>
-                            </div>
+                           </div>
                         </ul>
                     </div>
 
@@ -547,28 +547,28 @@
                         <ul class="nav-flex-column">
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted"
-                                    href="https://github.com/joonwonh/WhereHouse/tree/main/1.%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C"
+                                    href="https://github.com/bumjinDev/wherehouse/tree/master/1.%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%84%9C"
                                     target='_blank'>
                                     Project Plan pres.
                                 </a>
                             </div>
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted"
-                                    href="https://github.com/joonwonh/WhereHouse/tree/main/2.%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C"
+                                    href="https://github.com/bumjinDev/wherehouse/tree/master/2.%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%84%9C"
                                     target='_blank'>
                                     Develop Plan
                                 </a>
                             </div>
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted"
-                                    href="https://github.com/joonwonh/WhereHouse/tree/main/3.%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EC%9D%98%EC%84%9C"
+                                    href="https://github.com/bumjinDev/wherehouse/tree/master/3.%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EC%9D%98%EC%84%9C_%EB%B6%84%EC%84%9D%EC%84%9C"
                                     target='_blank'>
                                     Function Specification
                                 </a>
                             </div>
                             <div class="nav-item mb-2">
                                 <a class="nav-link p-0 text-muted"
-                                    href="https://github.com/joonwonh/WhereHouse/tree/main/4.%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C"
+                                    href="https://github.com/bumjinDev/wherehouse/tree/master/4.%ED%99%94%EB%A9%B4%20%EC%84%A4%EA%B3%84%EC%84%9C"
                                     target='_blank'>
                                     Wire Frame
                                 </a>

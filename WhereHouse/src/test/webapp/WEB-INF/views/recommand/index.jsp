@@ -516,7 +516,7 @@
                                             <div class="nav-item mb-2">
                                                 <a class="nav-link p-0 text-muted">
                                                     <i class="bi bi-geo-alt-fill">
-                                                        서울시 서대문구 연희로
+                                                        서울특별시 영등포구
                                                     </i>
                                                 </a>
                                             </div>
