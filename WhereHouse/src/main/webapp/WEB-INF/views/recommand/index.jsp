@@ -69,31 +69,29 @@
                                             </ul>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a class=" nav-link dropdown-toggle me-5" id="nav_btn_data_script" href="/wherehouse/page/reinfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">데이터 분석</a>
-                                            <ul class="dropdown-menu me-3 dropdown-menu-end text-end nav_btn_house_rec_dropdown" id="">
-                                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo">분석 적용 방식 페이지</a></li>
-                                                <hr id="navbar_hr">
-                                                <li><a class="dropdown-item nav_choose"
-                                                        href="description.html#first_page">생활 안전
-                                                        관련</a></li>
-                                                <li><a class="dropdown-item nav_choose"
-                                                        href="description.html#second_page">생활
-                                                        편의
-                                                        관련</a></li>
-                                                <li><a class="dropdown-item nav_choose"
-                                                        href="description.html#third_page">가격
-                                                        관련</a></li>
-                                                <li><a class="dropdown-item nav_choose"
-                                                        href="description.html#fourth_page">추천
-                                                        결과
-                                                        관련</a></li>
-                                                <li><a class="dropdown-item nav_choose"
-                                                        href="description.html#fifth_page">인구
-                                                        밀집도
-                                                        관련</a></li>
-                                            </ul>
-                                        </li>
-
+				                            <a class=" nav-link dropdown-toggle me-3" id="nav_btn_data_script" href="#" role="button"
+				                                data-bs-toggle="dropdown" aria-expanded="false">
+				                                데이터 분석
+				                            </a>
+				                            <ul class="dropdown-menu me-5 dropdown-menu-end text-end nav_btn_house_rec_dropdown" id="">
+				                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo">분석 적용 방식 페이지</a>
+				                                </li>
+				                                <hr id="navbar_hr">
+				                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo#first_page">생활 안전
+				                                        관련</a></li>
+				                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo#second_page">생활
+				                                        편의
+				                                        관련</a></li>
+				                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo#third_page">가격
+				                                        관련</a></li>
+				                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo#fourth_page">추천
+				                                        결과
+				                                        관련</a></li>
+				                                <li><a class="dropdown-item nav_choose" href="/wherehouse/page/reinfo#fifth_page">인구
+				                                        밀집도
+				                                        관련</a></li>
+				                            </ul>
+				                        </li>
                                         <li class="nav-item dropdown">
                                             <a class=" nav-link dropdown-toggle me-" id="nav_btn_house_rec" href="#"
                                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
