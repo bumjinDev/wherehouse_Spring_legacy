@@ -1,1 +1,4 @@
-<img src="https://github.com/user-attachments/assets/f521acdb-4507-4aee-8abd-ac88f80318bb" width="100" height="100" align='left'><br>   #거주지 추천 서비스
+<div style="display: flex; align-items: center;">
+    <img src="https://github.com/user-attachments/assets/f521acdb-4507-4aee-8abd-ac88f80318bb" width="100" height="100" style="margin-right: 10px;">
+    <h1 style="margin: 0;">거주지 추천 서비스</h1>
+</div>
