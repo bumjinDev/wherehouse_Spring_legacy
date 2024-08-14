@@ -76,7 +76,11 @@ WhereHouse
 ---
 ### [초기화면]
 	- 서비스에 접속하면 가장 먼저 보이는 초기 화면입니다. 이 화면에서는 각 서비스 페이지로의 접근과 로그인/회원가입 페이지로의 이동이 가능합니다.
- 	- 로그인이 되어 잇는 경우 'loginSuccess' 패아자 화면 제공.
+ 	- 로그인이 되어 잇는 경우 'loginSuccess' 페이지 화면 제공.
   
   <img src="https://github.com/user-attachments/assets/255d06a4-7c9b-463b-a053-f3cd8354eecf" />
+
+### [거주지 추천]
+	- 사용자가 안전성과 편의성 비중을 선택하고 전세 및 월세 금액을 설정하면, 서울시 내에서 추천할 지역구 3곳을 추천합니다.
+  <img src="https://github.com/user-attachments/assets/6de5e888-cd4c-4145-a128-ae27b3a21203" />
  	
