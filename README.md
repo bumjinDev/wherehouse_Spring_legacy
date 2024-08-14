@@ -78,5 +78,5 @@ WhereHouse
 	- 서비스에 접속하면 가장 먼저 보이는 초기 화면입니다. 이 화면에서는 각 서비스 페이지로의 접근과 로그인/회원가입 페이지로의 이동이 가능합니다.
  	- 로그인이 되어 잇는 경우 'loginSuccess' 패아자 화면 제공.
   
-  ![2](![maingif](https://github.com/user-attachments/assets/255d06a4-7c9b-463b-a053-f3cd8354eecf))
+  <img src="https://github.com/user-attachments/assets/255d06a4-7c9b-463b-a053-f3cd8354eecf" />
  	
