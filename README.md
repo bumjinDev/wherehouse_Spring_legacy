@@ -23,4 +23,4 @@
 | 정범진 | 이재서 |
 | --- | --- |
 | <img src="https://github.com/user-attachments/assets/946612ee-7f7f-41ce-8d8c-85b578f18d2d" width="100" height="100" alt="jung"/> | <img src="https://github.com/user-attachments/assets/8b4a2dd0-166a-4e04-93eb-38482a2828fe" width="100" height="100" alt="lee"/> |
-| ![2](https://github.com/bumjinDev/wherehouse) | <a href="https://github.com/N0WST4NDUP" /> |
+| !bumjinDev(https://github.com/bumjinDev/wherehouse) | <a href="https://github.com/N0WST4NDUP" /> |
