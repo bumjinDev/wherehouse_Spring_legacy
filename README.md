@@ -94,3 +94,4 @@ WhereHouse
   
 ### [회원가입]
 	- 회원가입 기능으로 로그인 시 게시판 이용이 가능합니다.
+ <img src="https://github.com/user-attachments/assets/bb22056b-d08c-42b6-8872-f381ecc18cfc" />
