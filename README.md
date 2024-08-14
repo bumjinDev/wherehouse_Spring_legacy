@@ -99,4 +99,4 @@ WhereHouse
 
 ### [로그인]
 	- 로그인이 완료되면 세션 정보를 포함한 페이지로 리디렉션됩니다.
- <img src="https://github.com/user-attachments/assets/a0320fc9-9d55-413b-8c05-174e7a69f0bc" />
+ <img src="https://github.com/user-attachments/assets/38030b0e-45b3-49ba-b6fa-095464379e9c" />
