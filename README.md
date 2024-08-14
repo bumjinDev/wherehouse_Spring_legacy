@@ -32,7 +32,7 @@
 ---
 WhereHouse<br>
  └─ src<br>
-	├─ board<br>
+```├─ board<br>```
 	│	├─ controller<br>
 	│	├─ dao<br>
 	│	├─ model<br>
