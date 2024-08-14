@@ -30,3 +30,27 @@
 
 ## 프로젝트 구조
 ---
+WhereHouse
+ └─ src
+ 	├─ board
+	│      ├─ controller
+	│      ├─ dao
+	│      ├─ model
+	│      ├─ service
+ 	├─ information
+	│      ├─ controller
+	│      ├─ dao
+	│      ├─ model
+ 	│      ├─ service
+ 	├─ mainpage
+ 	│      ├─ controller
+ 	├─ members
+ 	│      ├─ controller
+ 	│      ├─ dao
+ 	│      ├─ model
+ 	│      └─ service
+ 	└─ recommand
+ 	       ├─ controller
+ 	       ├─ dao
+ 	       ├─ model
+ 	       └─ service
