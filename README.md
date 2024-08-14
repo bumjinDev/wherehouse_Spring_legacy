@@ -89,4 +89,8 @@ WhereHouse
   	
 ### [게시판]
 	-사용자 간의 원활한 정보 공유를 위해 마련된 공간입니다.
-  <img src="https://github.com/user-attachments/assets/e7ed6981-cc43-4d48-887c-3a0479d9b080" />
+ 	- 로그인 하지 않았을 시 게시판 글 작성이 불가능 합니다.
+  <img src="https://github.com/user-attachments/assets/bb22056b-d08c-42b6-8872-f381ecc18cfc" />
+  
+### [회원가입]
+	- 회원가입 기능으로 로그인 시 게시판 이용이 가능합니다.
