@@ -33,7 +33,7 @@
 <pre>
 WhereHouse
    └─ src
- 	├─ board<br>
+ 	├─ board
 	│	├─ controller
 	│	├─ dao
 	│	├─ model
