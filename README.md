@@ -30,3 +30,387 @@
 
 ## 프로젝트 구조
 ---
+WhereHouse
+ ┣ src
+ ┃ ┣ main
+ ┃ ┃ ┣ java
+ ┃ ┃ ┃ ┗ com
+ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┣ board
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ BoardServiceController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ dao
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ IBoardRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ model
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ CommentVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardChoiceService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardDeleteService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardListService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardModifyService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardWriteCommand.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardWriteService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IBoardChoiceService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IBoardDeleteService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IBoardListService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IBoardModifyService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IBoardWriteCommand.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ IBoardWriteService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ information
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ InformationController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ dao
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ AddrRateMapper.xml
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ CctvMapper.xml
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IAddrRateRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ ICCTVRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IPoliceOfficeRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ PoliceOfficeMapper.xml
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ model
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ AddrRateVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ CctvVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ PoliceOfficeVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IInfoService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ InfoService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ mainpage
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ PageResponseController.java
+ ┃ ┃ ┃ ┃ ┃ ┣ members
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ MembersEditController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ MembersJoinController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ MembersLoginController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ dao
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IMembersRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ MembersRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ model
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ MembersVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IMemberJoinService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IMemberLoginService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IMemberLogoutService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IMembersEditPageService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IMembersEditService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ MemberJoinService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ MemberLoginService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ MemberLogoutService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ MembersEditPageService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ MembersEditService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ recommand
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ RecServiceController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ dao
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IRecServiceEmpRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ RecServiceEmpRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ model
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ RecServiceVO.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IRecService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ RecServiceCharterService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ RecServiceMonthlyService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ HomeController.java
+ ┃ ┃ ┃ ┃ ┃ ┗ Test.java
+ ┃ ┃ ┣ resources
+ ┃ ┃ ┃ ┣ database
+ ┃ ┃ ┃ ┃ ┗ jdbc.properties
+ ┃ ┃ ┃ ┣ spring
+ ┃ ┃ ┃ ┃ ┗ application-config.xml
+ ┃ ┃ ┃ ┗ log4j.xml
+ ┃ ┃ ┗ webapp
+ ┃ ┃ ┃ ┣ META-INF
+ ┃ ┃ ┃ ┃ ┣ maven
+ ┃ ┃ ┃ ┃ ┃ ┣ com.wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┃ ┗ e.g
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ com
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┗ MANIFEST.MF
+ ┃ ┃ ┃ ┣ resources
+ ┃ ┃ ┃ ┃ ┣ css
+ ┃ ┃ ┃ ┃ ┃ ┣ bootstrap.css
+ ┃ ┃ ┃ ┃ ┃ ┣ comp_modal.css
+ ┃ ┃ ┃ ┃ ┃ ┣     .
+ ┃ ┃ ┃ ┃ ┃ ┣     .
+ ┃ ┃ ┃ ┃ ┃ ┣     .
+ ┃ ┃ ┃ ┃ ┃ ┗ write.css
+ ┃ ┃ ┃ ┃ ┣ images
+ ┃ ┃ ┃ ┃ ┃ ┣ hotPlace
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 강남구
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃      .
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃      .
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃      .
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 중랑구
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt
+ ┃ ┃ ┃ ┃ ┃ ┣ amenity_icon.png
+ ┃ ┃ ┃ ┃ ┃ ┣ board_icon.png
+ ┃ ┃ ┃ ┃ ┃ ┣       .
+ ┃ ┃ ┃ ┃ ┃ ┣       .
+ ┃ ┃ ┃ ┃ ┃ ┣       .
+ ┃ ┃ ┃ ┃ ┃ ┗ suggest_icon_preview.png
+ ┃ ┃ ┃ ┃ ┣ js
+ ┃ ┃ ┃ ┃ ┃ ┣ amenity.js
+ ┃ ┃ ┃ ┃ ┃ ┣ boardlist.js
+ ┃ ┃ ┃ ┃ ┃ ┣ cctv.js
+ ┃ ┃ ┃ ┃ ┃ ┣       .
+ ┃ ┃ ┃ ┃ ┃ ┣       .
+ ┃ ┃ ┃ ┃ ┃ ┣       .
+ ┃ ┃ ┃ ┃ ┃ ┗ writedo.js
+ ┃ ┃ ┃ ┃ ┗ json
+ ┃ ┃ ┃ ┃ ┃ ┣ arrestRate.json
+ ┃ ┃ ┃ ┃ ┃ ┣ density.json
+ ┃ ┃ ┃ ┃ ┃ ┣ mapData.json
+ ┃ ┃ ┃ ┃ ┃ ┣ policeOffice.geojson
+ ┃ ┃ ┃ ┃ ┃ ┗ SeoulCCTV.json
+ ┃ ┃ ┃ ┗ WEB-INF
+ ┃ ┃ ┃ ┃ ┣ spring
+ ┃ ┃ ┃ ┃ ┃ ┗ appServlet
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ servlet-context.xml
+ ┃ ┃ ┃ ┃ ┣ views
+ ┃ ┃ ┃ ┃ ┃ ┣ board
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentedit.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentview.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ list.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ writepage.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ information
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ informationPage.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ members
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ join.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ joinOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ login.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ loginOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ loginSuccess.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ logout.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ modify.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ modifyOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ recommand
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ description.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ gu_map.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ house_rec.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ index.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ main.jsp
+ ┃ ┃ ┃ ┃ ┃ ┗ home.jsp
+ ┃ ┃ ┃ ┃ ┗ web.xml
+ ┃ ┗ test
+ ┃ ┃ ┣ resources
+ ┃ ┃ ┃ ┗ log4j.xml
+ ┃ ┃ ┗ webapp
+ ┃ ┃ ┃ ┣ META-INF
+ ┃ ┃ ┃ ┃ ┣ maven
+ ┃ ┃ ┃ ┃ ┃ ┗ com.wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┗ MANIFEST.MF
+ ┃ ┃ ┃ ┣ resources
+ ┃ ┃ ┃ ┃ ┣ css
+ ┃ ┃ ┃ ┃ ┃ ┣ bootstrap.css
+ ┃ ┃ ┃ ┃ ┃ ┣ comp_modal.css
+ ┃ ┃ ┃ ┃ ┃ ┣      .
+ ┃ ┃ ┃ ┃ ┃ ┣      .
+ ┃ ┃ ┃ ┃ ┃ ┣      .
+ ┃ ┃ ┃ ┃ ┃ ┗ write.css
+ ┃ ┃ ┃ ┃ ┣ images
+ ┃ ┃ ┃ ┃ ┃ ┣ hotPlace
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 강남구
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃    .
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃    .
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃    .
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 중랑구
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt
+ ┃ ┃ ┃ ┃ ┃ ┣ amenity_icon.png
+ ┃ ┃ ┃ ┃ ┃ ┣ board_icon.png
+ ┃ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┃ ┗ suggest_icon_preview.png
+ ┃ ┃ ┃ ┃ ┣ js
+ ┃ ┃ ┃ ┃ ┃ ┣ amenity.js
+ ┃ ┃ ┃ ┃ ┃ ┣ boardlist.js
+ ┃ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┃ ┣ score.js
+ ┃ ┃ ┃ ┃ ┃ ┗ writedo.js
+ ┃ ┃ ┃ ┃ ┗ json
+ ┃ ┃ ┃ ┃ ┃ ┣ arrestRate.json
+ ┃ ┃ ┃ ┃ ┃ ┣ density.json
+ ┃ ┃ ┃ ┃ ┃ ┣ mapData.json
+ ┃ ┃ ┃ ┃ ┃ ┣ policeOffice.geojson
+ ┃ ┃ ┃ ┃ ┃ ┗ SeoulCCTV.json
+ ┃ ┃ ┃ ┗ WEB-INF
+ ┃ ┃ ┃ ┃ ┣ spring
+ ┃ ┃ ┃ ┃ ┃ ┗ appServlet
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ servlet-context.xml
+ ┃ ┃ ┃ ┃ ┣ views
+ ┃ ┃ ┃ ┃ ┃ ┣ board
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentedit.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentview.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ list.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ writepage.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ information
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ informationPage.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ members
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ join.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ joinOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ login.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ loginOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ loginSuccess.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ logout.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ modify.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ modifyOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ recommand
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ description.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ gu_map.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ house_rec.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ index.jsp
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ main.jsp
+ ┃ ┃ ┃ ┃ ┃ ┗ home.jsp
+ ┃ ┃ ┃ ┃ ┗ web.xml
+ ┣ target
+ ┃ ┣ classes
+ ┃ ┃ ┣ com
+ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┗ information
+ ┃ ┃ ┃ ┃ ┃ ┗ dao
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ AddrRateMapper.xml
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ CctvMapper.xml
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ PoliceOfficeMapper.xml
+ ┃ ┃ ┣ database
+ ┃ ┃ ┃ ┗ jdbc.properties
+ ┃ ┃ ┣ spring
+ ┃ ┃ ┃ ┗ application-config.xml
+ ┃ ┃ ┗ log4j.xml
+ ┃ ┣ m2e-wtp
+ ┃ ┃ ┗ web-resources
+ ┃ ┃ ┃ ┗ META-INF
+ ┃ ┃ ┃ ┃ ┣ maven
+ ┃ ┃ ┃ ┃ ┃ ┗ e.g
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┗ MANIFEST.MF
+ ┃ ┣ maven-archiver
+ ┃ ┃ ┗ pom.properties
+ ┃ ┣ test-classes
+ ┃ ┃ ┗ log4j.xml
+ ┃ ┗ wherehouse-1.0.0-BUILD-SNAPSHOT
+ ┃ ┃ ┣ META-INF
+ ┃ ┃ ┃ ┣ maven
+ ┃ ┃ ┃ ┃ ┣ com.wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┗ e.g
+ ┃ ┃ ┃ ┃ ┃ ┣ com
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml
+ ┃ ┃ ┃ ┗ MANIFEST.MF
+ ┃ ┃ ┣ resources
+ ┃ ┃ ┃ ┣ css
+ ┃ ┃ ┃ ┃ ┣ bootstrap.css
+ ┃ ┃ ┃ ┃ ┣ comp_modal.css
+ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┣    .
+ ┃ ┃ ┃ ┃ ┣ rec_info.css
+ ┃ ┃ ┃ ┃ ┗ write.css
+ ┃ ┃ ┃ ┣ images
+ ┃ ┃ ┃ ┃ ┣ hotPlace
+ ┃ ┃ ┃ ┃ ┃ ┣ 강남구
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt
+ ┃ ┃ ┃ ┃ ┃ ┣ 강동구
+ ┃ ┃ ┃ ┃ ┃ ┣      .
+ ┃ ┃ ┃ ┃ ┃ ┣      .
+ ┃ ┃ ┃ ┃ ┃ ┣      .
+ ┃ ┃ ┃ ┃ ┃ ┗ 중랑구
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt
+ ┃ ┃ ┃ ┃ ┣ amenity_icon.png
+ ┃ ┃ ┃ ┃ ┣ board_icon.png
+ ┃ ┃ ┃ ┃ ┣         .
+ ┃ ┃ ┃ ┃ ┣         .
+ ┃ ┃ ┃ ┃ ┣         .
+ ┃ ┃ ┃ ┃ ┗ suggest_icon_preview.png
+ ┃ ┃ ┃ ┣ js
+ ┃ ┃ ┃ ┃ ┣ amenity.js
+ ┃ ┃ ┃ ┃ ┣ boardlist.js
+ ┃ ┃ ┃ ┃ ┣     .
+ ┃ ┃ ┃ ┃ ┣     . 
+ ┃ ┃ ┃ ┃ ┣     .
+ ┃ ┃ ┃ ┃ ┣ score.js
+ ┃ ┃ ┃ ┃ ┗ writedo.js
+ ┃ ┃ ┃ ┗ json
+ ┃ ┃ ┃ ┃ ┣ arrestRate.json
+ ┃ ┃ ┃ ┃ ┣ density.json
+ ┃ ┃ ┃ ┃ ┣ mapData.json
+ ┃ ┃ ┃ ┃ ┣ policeOffice.geojson
+ ┃ ┃ ┃ ┃ ┗ SeoulCCTV.json
+ ┃ ┃ ┗ WEB-INF
+ ┃ ┃ ┃ ┣ classes
+ ┃ ┃ ┃ ┃ ┣ database
+ ┃ ┃ ┃ ┃ ┃ ┗ jdbc.properties
+ ┃ ┃ ┃ ┃ ┣ spring
+ ┃ ┃ ┃ ┃ ┃ ┗ application-config.xml
+ ┃ ┃ ┃ ┃ ┗ log4j.xml
+ ┃ ┃ ┃ ┣ spring
+ ┃ ┃ ┃ ┃ ┗ appServlet
+ ┃ ┃ ┃ ┃ ┃ ┗ servlet-context.xml
+ ┃ ┃ ┃ ┣ views
+ ┃ ┃ ┃ ┃ ┣ board
+ ┃ ┃ ┃ ┃ ┃ ┣ contentedit.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ contentview.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ list.jsp
+ ┃ ┃ ┃ ┃ ┃ ┗ writepage.jsp
+ ┃ ┃ ┃ ┃ ┣ information
+ ┃ ┃ ┃ ┃ ┃ ┗ informationPage.jsp
+ ┃ ┃ ┃ ┃ ┣ members
+ ┃ ┃ ┃ ┃ ┃ ┣ join.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ joinOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ login.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ loginOk.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ loginSuccess.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ logout.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ modify.jsp
+ ┃ ┃ ┃ ┃ ┃ ┗ modifyOk.jsp
+ ┃ ┃ ┃ ┃ ┣ recommand
+ ┃ ┃ ┃ ┃ ┃ ┣ description.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ gu_map.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ house_rec.jsp
+ ┃ ┃ ┃ ┃ ┃ ┣ index.jsp
+ ┃ ┃ ┃ ┃ ┃ ┗ main.jsp
+ ┃ ┃ ┃ ┃ ┗ home.jsp
+ ┃ ┃ ┃ ┗ web.xml
+ ┣ .classpath
+ ┣ .project
+ ┗ pom.xml
