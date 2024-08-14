@@ -147,10 +147,10 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃   .<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃   .<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ 중랑구<br>
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt<br><br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt<br>
 ┃ ┃ ┃ ┃ ┃ ┣ amenity_icon.png<br>
 ┃ ┃ ┃ ┃ ┃ ┣ board_icon.png<br>
 ┃ ┃ ┃ ┃ ┃ ┣    .<br>
