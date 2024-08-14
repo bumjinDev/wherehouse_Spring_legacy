@@ -133,7 +133,7 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┣ bootstrap.css<br>
 ┃ ┃ ┃ ┃ ┃ ┣ comp_modal.css<br>
 ┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ ┃ | ┣    .<br>
 ┃ ┃ ┃ ┃ ┃ ┣    .<br>
 ┃ ┃ ┃ ┃ ┃ ┗ write.css<br>
 ┃ ┃ ┃ ┃ ┣ images<br>
@@ -181,8 +181,8 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentview.jsp<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ list.jsp<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ writepage.jsp<br>
-┃ ┃ ┃ ┃ ┃ ┣   .<br>
-┃ ┃ ┃ ┃ ┃ ┣   .<br>
+┃ ┃ ┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ ┃ ┃ ┣    .<br>
 ┃ ┃ ┃ ┃ ┃ ┣   .<br>
 ┃ ┃ ┃ ┃ ┗ web.xml<br>
 ┣ .classpath<br>
