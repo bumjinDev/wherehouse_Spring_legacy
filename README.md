@@ -30,8 +30,9 @@
 
 ## 프로젝트 구조
 ---
-1. WhereHouse<br>
- 1.1. └─ src<br>
+<pre>
+WhereHouse<br>
+   └─ src<br>
  	├─ board<br>
 	│	├─ controller<br>
 	│	├─ dao<br>
@@ -54,3 +55,4 @@
 		├─ dao<br>
 		├─ model<br>
 		└─ service<br>
+</pre>
