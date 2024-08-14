@@ -26,7 +26,7 @@
 | [@bumjinDev](https://github.com/bumjinDev/wherehouse) | [@N0WST4NDUP](https://github.com/N0WST4NDUP) |
 
 ---
-<br>
+
 
 ## 프로젝트 구조
 ---
