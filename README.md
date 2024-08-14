@@ -105,29 +105,7 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ IRecService.java<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ RecServiceCharterService.java<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ RecServiceMonthlyService.java<br>
-┃ ┃ ┃ ┃ ┃ ┣ HomeController.java<br>
-┃ ┃ ┃ ┃ ┃ ┗ Test.java<br>
-┃ ┃ ┣ resources<br>
-┃ ┃ ┃ ┣ database<br>
-┃ ┃ ┃ ┃ ┗ jdbc.properties<br>
-┃ ┃ ┃ ┣ spring<br>
-┃ ┃ ┃ ┃ ┗ application-config.xml<br>
-┃ ┃ ┃ ┗ log4j.xml<br>
 ┃ ┃ ┗ webapp<br>
-┃ ┃ ┃ ┣ META-INF<br>
-┃ ┃ ┃ ┃ ┣ maven<br>
-┃ ┃ ┃ ┃ ┣ com.wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┃ ┃ ┗ e.g<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┣ com<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┃ ┗ MANIFEST.MF<br>
 ┃ ┃ ┃ ┣ resources<br>
 ┃ ┃ ┃ ┃ ┣ css<br>
 ┃ ┃ ┃ ┃ ┃ ┣ bootstrap.css<br>
@@ -172,9 +150,6 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┣ policeOffice.geojson<br>
 ┃ ┃ ┃ ┃ ┃ ┗ SeoulCCTV.json<br>
 ┃ ┃ ┗ WEB-INF<br>
-┃ ┃ ┃ ┃ ┣ spring<br>
-┃ ┃ ┃ ┃ ┃ ┗ appServlet<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ servlet-context.xml<br>
 ┃ ┃ ┃ ┃ ┣ views<br>
 ┃ ┃ ┃ ┃ ┃ ┣ board<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentedit.jsp<br>
