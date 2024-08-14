@@ -48,9 +48,9 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ service<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardChoiceService.java<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ BoardDeleteService.java<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ IBoardWriteService.java<br>
 ┃ ┃ ┃ ┃ ┃ ┣ information<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ controller<br>
