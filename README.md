@@ -86,4 +86,7 @@ WhereHouse
 ### [상세지도]
 	- 사용자가 지도 위에 핀포인트를 지정하면, 반경 500m 내의 CCTV 위치를 마커로 표시하고, 가장 가까운 파출소 거리 및 편의시설 정보를 제공합니다.
   <img src="https://github.com/user-attachments/assets/9af6ac87-f5a7-4ec1-8c37-1033e7797be2" />
- 
+  	
+### [게시판]
+	-사용자 간의 원활한 정보 공유를 위해 마련된 공간입니다.
+  <img src="https://github.com/user-attachments/assets/e7ed6981-cc43-4d48-887c-3a0479d9b080" />
