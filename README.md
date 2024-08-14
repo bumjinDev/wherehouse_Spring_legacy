@@ -34,7 +34,7 @@
 WhereHouse<br>
    └─ src<br>
  	├─ board<br>
-	│	├─ controller<br>
+	│	├─ controller
 	│	├─ dao<br>
 	│	├─ model<br>
 	│	├─ service<br>
