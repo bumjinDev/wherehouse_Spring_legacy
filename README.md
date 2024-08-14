@@ -260,48 +260,6 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ main.jsp<br>
 ┃ ┃ ┃ ┃ ┃ ┗ home.jsp<br>
 ┃ ┃ ┃ ┃ ┗ web.xml<br>
-┣ target<br>
-┃ ┣ classes<br>
-┃ ┃ ┣ com<br>
-┃ ┃ ┃ ┗ wherehouse<br>
-┃ ┃ ┃ ┃ ┗ information<br>
-┃ ┃ ┃ ┃ ┗ dao<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┣ AddrRateMapper.xml<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┣ CctvMapper.xml<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ PoliceOfficeMapper.xml<br>
-┃ ┃ ┣ database<br>
-┃ ┃ ┃ ┗ jdbc.properties<br>
-┃ ┃ ┣ spring<br>
-┃ ┃ ┃ ┗ application-config.xml<br>
-┃ ┃ ┗ log4j.xml<br>
-┃ ┣ m2e-wtp<br>
-┃ ┗ web-resources<br>
-┃ ┃ ┃ ┗ META-INF<br>
-┃ ┃ ┃ ┃ ┣ maven<br>
-┃ ┃ ┃ ┃ ┃ ┗ e.g<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┃ ┗ MANIFEST.MF<br>
-┃ ┣ maven-archiver<br>
-┃ ┃ ┗ pom.properties<br>
-┃ ┣ test-classes<br>
-┃ ┃ ┗ log4j.xml<br>
-┗ wherehouse-1.0.0-BUILD-SNAPSHOT<br>
-┃ ┃ ┣ META-INF
-┃ ┃ ┃ ┣ maven<br>
-┃ ┃ ┃ ┃ ┣ com.wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┗ wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┃ ┗ e.g<br>
-┃ ┃ ┃ ┃ ┃ ┣ com<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┃ ┃ ┗ wherehouse<br>
-┃ ┃ ┃ ┃ ┃ ┣ pom.properties<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┗ pom.xml<br>
-┃ ┃ ┃ ┗ MANIFEST.MF<br>
 ┃ ┃ ┣ resources<br>
 ┃ ┃ ┃ ┣ css<br>
 ┃ ┃ ┃ ┃ ┣ bootstrap.css<br>
