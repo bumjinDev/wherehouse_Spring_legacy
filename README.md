@@ -131,9 +131,9 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt<br>
 ┃ ┃ ┃ ┃ ┃ ┣ amenity_icon.png<br>
 ┃ ┃ ┃ ┃ ┃ ┣ board_icon.png<br>
-┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
-┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
-┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┃ ┗ suggest_icon_preview.png<br>
 ┃ ┃ ┃ ┣ js<br>
 ┃ ┃ ┃ ┃ ┃ ┣ amenity.js<br>
