@@ -251,7 +251,7 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ writepage.jsp<br>
 ┃ ┃ ┃ ┃ ┣    . <br>
 ┃ ┃ ┃ ┃ ┣    . <br>
-┃ ┃ ┃ ┣    . <br>
+┃ ┃ ┃ | ┣    . <br>
 ┃ ┃ ┃ ┃ ┃ ┣ recommand<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ description.jsp<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ gu_map.jsp<br>
@@ -308,7 +308,7 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┣ comp_modal.css<br>
 ┃ ┃ ┃ ┃ ┣    .<br>
 ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ | ┣    .<br>
 ┃ ┃ ┃ ┃ ┣ rec_info.css<br>
 ┃ ┃ ┃ ┃ ┗ write.css<br>
 ┃ ┃ ┃ ┣ images<br>
@@ -331,14 +331,14 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┣ board_icon.png<br>
 ┃ ┃ ┃ ┃ ┣     .<br>
 ┃ ┃ ┃ ┃ ┣     .<br>
-┃ ┃ ┃ ┣     .<br>
+┃ ┃ ┃ | ┣     .<br>
 ┃ ┃ ┃ ┃ ┗ suggest_icon_preview.png<br>
 ┃ ┃ ┃ ┣ js<br>
 ┃ ┃ ┃ ┃ ┣ amenity.js<br>
 ┃ ┃ ┃ ┃ ┣ boardlist.js<br>
 ┃ ┃ ┃ ┃ ┣     .<br>
 ┃ ┃ ┃ ┃ ┣     . <br>
-┃ ┃ ┃ ┣     .<br>
+┃ ┃ ┃ | ┣     .<br>
 ┃ ┃ ┃ ┃ ┣ score.js<br>
 ┃ ┃ ┃ ┃ ┗ writedo.js<br>
 ┃ ┃ ┃ ┗ json<br>
