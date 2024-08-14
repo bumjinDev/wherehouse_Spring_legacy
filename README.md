@@ -132,9 +132,9 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┣ css<br>
 ┃ ┃ ┃ ┃ ┃ ┣ bootstrap.css<br>
 ┃ ┃ ┃ ┃ ┃ ┣ comp_modal.css<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ | ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ | ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┃ ┗ write.css<br>
 ┃ ┃ ┃ ┃ ┣ images<br>
 ┃ ┃ ┃ ┃ ┃ ┣ hotPlace<br>
@@ -143,9 +143,9 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img3.jpg<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃   .<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃   .<br>
-┃ ┃ ┃ ┃ ┃ ┃ ┃   .<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┃ ┃&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ 중랑구<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ img1.jpg<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ img2.jpg<br>
@@ -153,17 +153,17 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 지역.txt<br>
 ┃ ┃ ┃ ┃ ┃ ┣ amenity_icon.png<br>
 ┃ ┃ ┃ ┃ ┃ ┣ board_icon.png<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┃ ┗ suggest_icon_preview.png<br>
 ┃ ┃ ┃ ┣ js<br>
 ┃ ┃ ┃ ┃ ┃ ┣ amenity.js<br>
 ┃ ┃ ┃ ┃ ┃ ┣ boardlist.js<br>
 ┃ ┃ ┃ ┃ ┃ ┣ cctv.js<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┃ ┗ writedo.js<br>
 ┃ ┃ ┃ ┃ ┗ json<br>
 ┃ ┃ ┃ ┃ ┃ ┣ arrestRate.json<br>
@@ -181,9 +181,9 @@ WhereHouse<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ contentview.jsp<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┣ list.jsp<br>
 ┃ ┃ ┃ ┃ ┃ ┃ ┗ writepage.jsp<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣    .<br>
-┃ ┃ ┃ ┃ ┃ ┣   .<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
+┃ ┃ ┃ ┃ ┃ ┣&nbsp;&nbsp;&nbsp;.<br>
 ┃ ┃ ┃ ┃ ┗ web.xml<br>
 ┣ .classpath<br>
 ┣ .project<br>
