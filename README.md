@@ -59,6 +59,8 @@ WhereHouse
 		└─ service
 </pre>
 
+https://github.com/user-attachments/assets/6de5e888-cd4c-4145-a128-ae27b3a21203
+
 <br><br>
 
 ## 개발 기간 및 작업 관리
@@ -84,3 +86,7 @@ WhereHouse
 	- 사용자가 안전성과 편의성 비중을 선택하고 전세 및 월세 금액을 설정하면, 서울시 내에서 추천할 지역구 3곳을 추천합니다.
   <img src="https://github.com/user-attachments/assets/6de5e888-cd4c-4145-a128-ae27b3a21203" />
  	
+### [상세지도]
+	- 사용자가 지도 위에 핀포인트를 지정하면, 반경 500m 내의 CCTV 위치를 마커로 표시하고, 가장 가까운 파출소 거리 및 편의시설 정보를 제공합니다.
+  <img src="https://github.com/user-attachments/assets/6de5e888-cd4c-4145-a128-ae27b3a21203" />
+ 
