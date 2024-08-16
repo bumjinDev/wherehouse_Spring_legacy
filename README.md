@@ -92,7 +92,7 @@ WhereHouse
  	- 로그인 하지 않았을 시 게시판 글 작성이 불가능 합니다.
   <img src="https://github.com/user-attachments/assets/bb22056b-d08c-42b6-8872-f381ecc18cfc" />
   
-### [회원가입]
+### [회원 가입]
 	- 회원가입 기능으로 로그인 시 게시판 이용이 가능합니다.
  	- 유효성 검사 로직을 통해 필수 정보를 누락하거나 비밀번호 확인이 올바르지 않은 경우 회원가입이 진행되지 않습니다.
  <img src="https://github.com/user-attachments/assets/a0320fc9-9d55-413b-8c05-174e7a69f0bc" />
@@ -100,3 +100,8 @@ WhereHouse
 ### [로그인]
 	- 로그인이 완료되면 세션 정보를 포함한 페이지로 리디렉션됩니다.
  <img src="https://github.com/user-attachments/assets/38030b0e-45b3-49ba-b6fa-095464379e9c" />
+ 
+ ### [회원 수정]
+	- 회원 정보 수정 기능 입니다.
+ 	- 회원 수정 시 기존 아이디는 고유 값으로 수정할 수 없습니다. 그러나 비밀번호, 닉네임, 전화번호, 이메일 정보는 수정 가능합니다.
+ <img src="https://github.com/user-attachments/assets/4edf769a-f30f-469e-b315-a54b813d6f7a" />
