@@ -5,7 +5,7 @@
 
 ![2](https://github.com/user-attachments/assets/84dc3382-ae6f-4856-a8f0-2a21242319d3)
 
-+ 배포 URL : http://43.202.178.156:8181/wherehouse/
++ 배포 URL : Spring Boot 프로젝트로 마이그레이션 완료 및 재 배포 하였으므로 해당 프로젝트 배포 중지.
 
 <br><br>
 
